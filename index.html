@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>企业官网</title>
+  
+  <!-- 引入 Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+  <!-- 引入 Bootstrap -->
+  <link rel="stylesheet" href="./CSS/bootstrap-icons.css" type="text/css" media="all">
+  <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="./CSS/header.css">
+
+  
+</head>
+<body>
+
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <ul class="nav-menu">
+      <img src="10.png" alt="企业  logo">
+      <li><a href="#home">首页</a></li>
+      <li><a href="#about">关于我们</a></li>
+      <li><a href="#services">产品服务</a></li>
+      <li><a href="#contact">联系我们</a></li>
+      <li><a href="#news">新闻资讯</a></li>
+      <li><a href="#join">加入我们</a></li>
+      <li><a href="#partners">合作伙伴</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- 首页轮播图 -->
+    <section id="home">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./Image/head.jpeg" alt="image-1"></div>
+          <div class="swiper-slide"><img src="./Image/1.jpg" alt="image-2"></div>
+          <div class="swiper-slide"><img src="./Image/2.jpg" alt="image-3"></div>
+          <div class="swiper-slide"><img src="./Image/3.jpg" alt="image-4"></div>
+          <div class="swiper-slide"><img src="./Image/4.jpg" alt="image-5"></div>
+          <div class="swiper-slide"><img src="./Image/5.jpg" alt="image-6"></div>
+          <div class="swiper-slide"><img src="./Image/6.jpg" alt="image-7"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <div class="container" style="margin-top: 100px;">
+      <div class="row align-items-center">
+        <div class="col-lg-5">
+          <img src="./Image/7.jpg" style="width: 100%;">
+        </div>
+        <div class="col-lg-7">
+          <h2 style="color: black;">关于我们 <small style="font-size: small; color: grey;">ABOUT US</small></h2> 
+          <p style="color: #11a1c9;"><b>匠 / 人 / 匠 / 心  至 / 城 / 至 / 精</b></p>
+          <p>始创于2020年。历经几十年的发展，公司已成为集研发、销售、生产和服务于一体的现代高科技企业，构筑了面向全国的经营和服务网络，涵盖智能建筑、信息化、信息安全、云计算与大数据、智慧化应用、网络可视化和特种通信等业务领域。</p>
+          <div class="stats">
+            <div class="stats-item">
+              <h3>10000</h3>
+              <p>服务客户一万余次</p>
+            </div>
+            <div class="stats-item">
+              <h3>2023</h3>
+              <p>成立于2023年</p>
+            </div>
+            <div class="stats-item">
+              <h3>2000</h3>
+              <p>在职员工两千余人</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 产品服务卡片 -->
+     <section id="service" class="service">
+      <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 2rem; color: #333;">
+        产品服务
+        <br>
+        <span style="font-size: 1rem; color: #999; font-weight: normal;">Products Service</span>
+      </h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <img src="./Image/1.jpg" alt="信息化" />
+        <div class="content">
+          <h3>信息化</h3>
+          <p>为数据处理系统建立和采用的技术、管理上的安全保护</p>
+          <a href="#" class="btn">查看详情</a>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="./Image/2.jpg" alt="智能建筑" />
+        <div class="content">
+          <h3>智能建筑</h3>
+          <p>集现代科学技术之大成的产物</p>
+          <a href="#" class="btn">查看详情</a>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="./Image/3.jpg" alt="云计算数据中心" />
+        <div class="content">
+          <h3>云计算数据中心</h3>
+          <p>一种基于互联网的计算方式</p>
+          <a href="#" class="btn">查看详情</a>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="./Image/4.jpg" alt="智能化系统" />
+        <div class="content">
+          <h3>智能化系统</h3>
+          <p>汇集而成的针对某一个方面的应用的智能集合</p>
+          <a href="#" class="btn">查看详情</a>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="./Image/5.jpg" alt="可视化技术" />
+        <div class="content">
+          <h3>可视化技术</h3>
+          <p>科学计算可视化、数据可视化和信息可视化</p>
+          <a href="#" class="btn">查看详情</a>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="./Image/6.jpg" alt="特种移动通信系统" />
+        <div class="content">
+          <h3>特种移动通信系统</h3>
+          <p>各专业部门特别需求的无线通信系统</p>
+          <a href="#" class="btn">查看详情</a>
+        </div>
+      </div>
+    </div>
+     </section>
+    
+    <!--联系我们-->
+    <section class="contact-new" id="contact">
+      <div class="contact-new-content">
+        <h1>联系<span style="color: #ccc;">我们</span></h1>
+        <p>
+          为了便于我们更好地为您服务，请正确填写以下信息，我们会尽快与您取得联系，并答复您的需求！
+        </p>
+        <a href="#" class="btn-contact btn-primary">在线留言</a>
+        <a href="tel:400xxx8888" class="btn-contact btn-outline">热线：400-xxx-8888</a>
+      </div>
+    </section>
+
+    <!-- 新闻资讯 -->
+    <section id="news" class="news">
+      <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 2rem; color: #333;">
+        新闻资讯
+        <br>
+        <span style="font-size: 1rem; color: #999; font-weight: normal;">News Information</span>
+      </h2>
+      <div class="news-grid">
+        <div class="card">
+          <h3>云空调、私人定制、云网超市 - 企业的“互联网+”行动</h3>
+          <p>这样的“云空调”正式得益于“互联网+”的支撑。发布提出，鼓励制造企业利用物联网、云计算、大数据等技术，整合产品全生命周期数据，形成面向生产组织全过程的决策服务...</p>
+          <div class="date">2024-01-11</div>
+          <button class="more-btn">MORE</button>
+          <div class="divider"></div>
+        </div>
+        <div class="card">
+          <h3>新年报业绩告诉你哪家新基建上市公司有投资机会</h3>
+          <p>今年以来，“新基建”一直是市场的热词。近期，明确了“新基建”的范围。目前来看，新型基础设施主要包括信息基础设施、融合基础设施、创新基础设施等三方面内容。而依据...</p>
+          <div class="date">2024-01-11</div>
+          <button class="more-btn">MORE</button>
+          <div class="divider"></div>
+        </div>
+        <div class="card">
+          <h3>小微企业贷款难题有望突破</h3>
+          <p>作为就业大吸纳器的小微企业手影响严重，尽快为小微企业纾困解难，对增加就业维护社会稳定、加快经济复苏至关重要。要想帮助小微企业度过难关，首先一定要打通其融资通道</p>
+          <div class="date">2024-01-11</div>
+          <button class="more-btn">MORE</button>
+          <div class="divider"></div>
+        </div>
+        <div class="card">
+          <h3>创新板改革落地，新经济企业如何抓住新机遇</h3>
+          <p>发布创业板注册方法、创业板再融资注册办法1等规则，发布创业板改革并试点注册制配套业务规则征求意见稿，创业板改革大幕正式拉开。</p>
+          <div class="date">2024-01-11</div>
+          <button class="more-btn">MORE</button>
+          <div class="divider"></div>
+        </div>
+      </div>
+    </section>
+
+
+   <!-- 页脚 -->
+<footer class="footer">
+  <div class="contact-info">
+    <div class="contact-item">
+      <i class="bi bi-building"></i>
+      <p>地址: 中国北京市东城区某某大厦8-88室</p>
+    </div>
+    <div class="contact-item">
+      <i class="bi bi-phone"></i>
+      <p>电话: 400xxx8888</p>
+    </div>
+    <div class="contact-item">
+      <i class="bi bi-envelope-paper"></i>
+      <p>传真: 010xxx8888</p>
+    </div>
+    <div class="contact-item">
+      <i class="bi bi-envelope-at"></i>
+      <p>邮箱: name@example.com</p>
+    </div>
+    <p class="copyright" style="font-size: large;">版权所有 © 某某有限公司</p>
+  </div>
+  <div class="qr-code-container">
+    <div class="qr-code">
+      <img src="./Image/wechat1.png" alt="微信公众号">
+      <p>微信公众号</p>
+    </div>
+    <div class="qr-code">
+      <img src="./Image/wechat2.png" alt="扫一扫关注我们">
+      <p>扫一扫关注我们</p>
+    </div>
+  </div>
+</footer>
+
+<!--留言表单-->
+<div id="messagePopup" class="start-hidden">
+  <div class="minimized-label">在线留言</div>
+  <div class="form-content">
+    <h5 class="mb-3 text-center">在线留言</h5>
+    <div class="mb-3">
+      <input type="text" class="form-control" placeholder="姓名" required>
+    </div>
+    <div class="mb-3">
+      <input type="email" class="form-control" placeholder="邮箱" required>
+    </div>
+    <div class="mb-3">
+      <input type="tel" class="form-control" placeholder="电话(选填)" required>
+    </div>
+    <div class="mb-3">
+    <textarea class="form-contrl" rows="3" placeholder="请留下您的需求或建议..." required></textarea>
+    </div>
+    <button class="btn btn-primary w-100" onclick="handleSubmit()">提交留言</button>
+  </div>
+</div>
+
+<!--悬浮表单-->
+<script>
+  let popup = null;
+  let currentState = 'hidden'; //'hidden', 'center', 'minimized'
+
+  document.addEventListener('DOMContentLoaded', function(){
+    popup = document.getElementById('messagePopup');
+    if(!Popup) return;
+
+    //淡入动画
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() =>{
+        popup.classList.remove('start-hidden');
+        popup.classList.add('state-center');
+        currentState = 'center';
+      });
+    });
+
+    //点击外部最小化
+    document.addEventListener('click', function(e) {
+      if(currentState === 'center' && !popup.contains(e.target)){
+        minimizePopup();
+      }
+    });
+
+    //点击弹窗展开（仅限最小化状态）
+    popup.addEventListener('click', function(e){
+      //可选:限制只在特定区域点击才展开
+      if(currentState === 'minimized'){
+        expandPopup();
+      }
+    });
+
+    //表单验证:输入时清除错误
+    popup.querySelectorAll('input, textarea').forEach(el => {
+      el.addEventListener('input', () => {
+        el.classList.remove('is-invalid');
+      });
+    });
+  });
+
+  function minimizePopup() {
+    popup.classList.remove('state-center');
+    popup.classList.add('state-minimized');
+    currentState = 'minimized';
+  }
+
+  function expandPopup() {
+    popup.classList.remove('state-center');
+    popup.classList.add('state-minimized');
+    currentState = 'minimized';
+  }
+
+  function expandPopup() {
+    popup.classList.remove('state-minimized');
+    popup.classList.add('state-center');
+    currentState = 'minimized';
+  }
+
+  function handleSubmit() {
+    const inputs = popup.querySelectorAll('input, textarea');
+    let valid = true;
+
+    inputs.forEach(input =>{
+      if(input.hasAttribute('required') && !input.value.trim()){
+        valid = false;
+        input.classList.add('is-invalid');
+      }else{
+        input.classList.remove('is-invalid');
+      }
+    });
+
+    if(valid) {
+      alert('感谢您的留言！我们会尽快与您联系。');
+    }else{
+      alert('请填写必须项（带*的字段)。');
+    }
+  }
+</script>
+
+  </main>
+
+  <!-- 引入 Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="/test/JS/jquery-3.6.2.min.js"></script>
+  <script src="/test/JS/bootstrap.min.js"></script>
+
+  <!-- 初始化 Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      direction: "horizontal",
+      loop: true,
+      autoplay:{
+        delay:3000,
+        disableOnInteraction:true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>
